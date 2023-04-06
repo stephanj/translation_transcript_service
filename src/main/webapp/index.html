@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audio Recorder</title>  
+  <link rel="stylesheet" href="css/styles.css">  
+</head>
+<body>
+  <div class="container">
+    <div id="translatedText">Translation here</div>
+    <div class="filler">
+      <label for="source-lang">From</label>
+      <select id="source-lang">
+        <option value="en">English</option>
+        <option value="nl">Dutch</option>
+        <option value="fr">French</option>
+        <option value="es">Spanish</option>
+      </select>
+      <label for="target-lang">To</label>
+      <select id="target-lang">
+        <option value="fr">French</option>
+        <option value="nl">Dutch</option>
+        <option value="es">Spanish</option>
+        <option value="en">English</option>
+      </select>
+      <button id="start">Start Recording</button>
+      <button id="stop" disabled>Stop Recording</button>
+    </div>
+
+    <script type="text/javascript" src="js/translator.js"></script>
+</body>
+</html>
+

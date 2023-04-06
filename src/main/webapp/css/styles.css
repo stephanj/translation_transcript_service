@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #translatedText {
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: center;
+  }
+  .filler {
+    margin-top: 1rem;
+  }
