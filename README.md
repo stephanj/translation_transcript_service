@@ -2,7 +2,7 @@
 
 ![Overview](src/main/webapp/static/overview.jpg)
 
-# Installation
+# 💾 Installation
 
 ## Setup conda
 
@@ -48,7 +48,7 @@ const config = {
 };
 ```
 
-# Export your slides to HTML 
+# 🔧 Export your slides to HTML 
 
 ## Keynote
 
@@ -103,7 +103,7 @@ And at the end of the HTML <body> tag add the needed javascript import.
 I don't use PowerPoint, so maybe someone else can do this? 
 
 
-# Start WebSocket
+# 🚀 Start WebSocket
 
 1. Start the websocket python app which will accept audio chuncks from the browser.
 
