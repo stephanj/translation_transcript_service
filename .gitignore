@@ -2,3 +2,6 @@
 .env
 /recording/**
 magic.js
+/src/main/slides/**
+/src/main/webapp/js/config.js
+/src/main/server/__pycache__/**
