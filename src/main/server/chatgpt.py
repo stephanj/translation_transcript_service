@@ -15,13 +15,6 @@ logging.basicConfig(
 
 languages = {"en": "English", "fr": "French", "es": "Spanish", "nl": "Dutch"}
 
-logging.basicConfig(
-    level=logging.INFO,
-    format="[%(levelname)s] %(message)s",
-    handlers=[logging.StreamHandler(sys.stdout)],
-)
-
-
 def check_api_key():
     """
     Check that the OPENAI_API_KEY environment variable is set.    

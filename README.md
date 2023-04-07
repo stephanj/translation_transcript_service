@@ -16,6 +16,8 @@ Open a shell script and create a new python environment.
 
 Install the required Python modules
 
+    cd src/main/server
+
     pip3 install -r requirements.txt
 
 

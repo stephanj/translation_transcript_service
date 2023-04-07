@@ -1,0 +1,5 @@
+whisper==1.1.10
+openai==0.27.2
+websockets==10.4
+asyncio==3.4.3
+python-dotenv==1.0.0
