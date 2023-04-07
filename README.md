@@ -71,22 +71,32 @@ The actual buttons in the header.  Place this right underneath the body tag.
     <div class="container">
         <div id="translatedText"></div>
         <div class="filler">
-          <label for="source-lang">From</label>
-          <select id="source-lang">
-            <option value="en">English</option>
-            <option value="nl">Dutch</option>
-            <option value="fr">French</option>
-            <option value="es">Spanish</option>
-          </select>
-          <label for="target-lang">To</label>
-          <select id="target-lang">
-            <option value="fr">French</option>
-            <option value="nl">Dutch</option>
-            <option value="es">Spanish</option>
-            <option value="en">English</option>
-          </select>
-          <button id="start">Start</button>
-          <button id="stop"  disabled>Stop</button>
+            <label for="source-lang">From</label>
+            <select id="source-lang">
+                <option value="en">English</option>
+                <option value="nl">Dutch</option>
+                <option value="fr">French</option>
+                <option value="es">Spanish</option>
+                <option value="gr">Greek</option>
+                <option value="it">Italian</option>
+                <option value="ja">Japanese</option>
+                <option value="zh">Chinese</option>
+                <option value="ar">Arabic</option>
+            </select>
+            <label for="target-lang">To</label>
+            <select id="target-lang">
+                <option value="fr">French</option>
+                <option value="nl">Dutch</option>
+                <option value="es">Spanish</option>
+                <option value="en">English</option>
+                <option value="gr">Greek</option>
+                <option value="it">Italian</option>
+                <option value="ja">Japanese</option>
+                <option value="zh">Chinese</option>
+                <option value="ar">Arabic</option>
+            </select>
+            <button id="start">Start</button>
+            <button id="stop" disabled>Stop</button>
         </div>
     </div>    
 ```
