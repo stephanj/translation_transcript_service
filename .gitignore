@@ -1,4 +1,5 @@
 /__pychache__
+.history/**
 .env
 /recording/**
 magic.js

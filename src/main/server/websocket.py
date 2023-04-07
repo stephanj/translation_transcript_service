@@ -64,6 +64,9 @@ async def websocket_handler(websocket, model):
 
 
 def get_file_number():
+    """
+    Get the next file number.
+    """
     global file_number
     file_number = file_number + 1
     return file_number
