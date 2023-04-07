@@ -9,9 +9,9 @@
 Open a shell script and create a new python environment.
 
 
-    conda create --name mic-app
+    conda create --name translator
 
-    conda activate mic-app
+    conda activate translator
 
 
 Install the required Python modules
