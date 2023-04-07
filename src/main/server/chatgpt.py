@@ -13,7 +13,7 @@ logging.basicConfig(
     handlers=[logging.StreamHandler(sys.stdout)],
 )
 
-languages = {"en": "English", "fr": "French", "es": "Spanish", "nl": "Dutch"}
+languages = {"en": "English", "fr": "French", "es": "Spanish", "nl": "Dutch", "gr": "Greek", "it": "Italian", "pt": "Portuguese", "ja": "Japanese", "zh": "Chinese"}
 
 def check_api_key():
     """

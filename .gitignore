@@ -6,3 +6,4 @@ magic.js
 /src/main/slides/**
 /src/main/webapp/js/config.js
 /src/main/server/__pycache__/**
+/src/main/server/recording/**
