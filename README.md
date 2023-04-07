@@ -13,10 +13,12 @@ Open a shell script and create a new python environment.
 
     conda activate translator
 
+    git clone https://github.com/stephanj/translation_transcript_service.git
+    
 
 Install the required Python modules
 
-    cd src/main/server
+    cd translation_transcript_service/src/main/server
 
     pip3 install -r requirements.txt
 
