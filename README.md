@@ -107,7 +107,9 @@ I don't use PowerPoint, so maybe someone else can do this?
 
 1. Start the websocket python app which will accept audio chuncks from the browser.
 
+```
     python3 websocket.py
+```    
 
 3. Open the updated index.html which contains the slides.  
 3. Select the from/to languages and press "Start". 
