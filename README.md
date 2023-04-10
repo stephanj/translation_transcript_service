@@ -9,7 +9,7 @@
 Open a shell script and create a new python environment.
 
 
-    conda create --name translator
+    conda create --name translator python=3.9
 
     conda activate translator
 
